@@ -1,0 +1,17 @@
+"""ifa.core — IFA-Core runtime engine.  Re-exports from ifa_core."""
+from ifa_core import (
+    IFAField, Particle, EnergyLedger, run_core,
+    TRANSFORM, BIND, FLOW_X, FLOW_Y, SPLIT, COLLAPSE, AMPLIFY, DECAY_CH,
+    N_OPS, TRANSFORM_CAP, ENERGY_EPSILON, GLOBAL_DECAY,
+    T_BIND, T_SPLIT, T_COLLAPSE, T_AMPLIFY,
+    INJECT_SCALE, INJECT_STEP_CAP, SCAR_STRENGTH, SCAR_RADIUS,
+    ECHO_AMPLITUDE, ECHO_PERIOD, POT_WEIGHT, SAMPLE_RADIUS,
+)
+__all__ = [
+    "IFAField", "Particle", "EnergyLedger", "run_core",
+    "TRANSFORM", "BIND", "FLOW_X", "FLOW_Y", "SPLIT", "COLLAPSE",
+    "AMPLIFY", "DECAY_CH", "N_OPS", "TRANSFORM_CAP", "ENERGY_EPSILON",
+    "GLOBAL_DECAY", "T_BIND", "T_SPLIT", "T_COLLAPSE", "T_AMPLIFY",
+    "INJECT_SCALE", "INJECT_STEP_CAP", "SCAR_STRENGTH", "SCAR_RADIUS",
+    "ECHO_AMPLITUDE", "ECHO_PERIOD", "POT_WEIGHT", "SAMPLE_RADIUS",
+]
